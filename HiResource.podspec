@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
   
   s.source_files = 'HiResource/Extension/**/*'
-  s.resource_bundles = {'Resources' => ['HiIOS/Resources/Images.xcassets']}
+  s.resource_bundles = {'Resources' => ['HiResource/Images.xcassets']}
   s.pod_target_xcconfig = {
   	'EXPANDED_CODE_SIGN_IDENTITY' => '',
   	'CODE_SIGNING_REQUIRED' => 'NO',
