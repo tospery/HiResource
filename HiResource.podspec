@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.swift_version = '5.3'
   s.ios.deployment_target = '13.0'
-  s.frameworks = 'Foundation'
+  s.frameworks = 'Foundation', 'UIKit'
   
   s.source_files = 'HiResource/Extension/**/*'
   s.resource_bundles = {'Resources' => ['HiResource/Images.xcassets']}
