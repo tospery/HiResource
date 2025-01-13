@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'HiResource'
   s.version          = '1.0.2'
-  s.summary          = 'Resource function.'
+  s.summary          = 'Resource module.'
   s.description      = <<-DESC
-						Resource function using Swift.
+						Resource module using Swift.
                        DESC
   s.homepage         = 'https://github.com/tospery/HiResource'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
