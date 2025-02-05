@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiResource'
-  s.version          = '1.1.0'
+  s.version          = '1.1.1'
   s.summary          = 'Resource module.'
   s.description      = <<-DESC
 						Resource module using Swift.
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.swift_version = '5.3'
-  s.ios.deployment_target = '13.0'
+  s.ios.deployment_target = '16.0'
   s.frameworks = 'Foundation', 'UIKit'
   
   s.source_files = 'HiResource/Extension/**/*'
