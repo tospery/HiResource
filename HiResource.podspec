@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'HiResource'
-  s.version          = '1.0.2'
+  s.version          = '1.1.0'
   s.summary          = 'Resource module.'
   s.description      = <<-DESC
 						Resource module using Swift.
